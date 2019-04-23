@@ -1,0 +1,252 @@
+.container {
+	margin: 0 auto;
+	width: 1000px;
+	position: relative;
+}
+
+h3 {
+	position: absolute;
+	top: 30px;
+	margin-top: 0;
+	text-align: center;
+	font: bold 33px Garamond, sans-serif;
+}
+
+h3 a {
+	color: black;
+}
+
+header {
+	height: 150px;
+}
+
+.fixed {
+	height: 150px;
+	position: fixed;
+	background-color: white;
+	z-index: 10;
+	width: 100%;
+	box-shadow: 0 0 15px 7px white;
+}
+
+
+.avatar {
+	width: 130px;
+	height: 130px;
+	overflow: hidden;
+	border-radius: 200px;
+	box-shadow: 0 0 15px 90px white;
+}
+
+figcaption {
+	font: italic 17px verdana, sans-serif;
+	text-align: center;
+	margin-top: 10px;
+}
+
+figure {
+	position: absolute;
+	top: -5px;
+	right: -280px;
+	width: 130px;
+}
+
+.logo {
+	position: absolute;
+	top: 23px;
+	left: -300px;
+}
+
+.exit {
+	position: absolute;
+	top: 30px;
+	right: -420px;
+	font: 16px verdana, sans-serif;
+	cursor: pointer;
+}
+
+.center {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+.shadow {
+	width: 700px;
+	padding: 20px 0;
+	box-shadow: 0 0 10px 7px #bcbec0;
+	background-color: white;
+}
+
+.pic_page {
+	width: 500px;
+	margin: 8px 100px;
+	transition: transform 400ms linear;
+
+}
+
+.pic_page:hover {
+	transform: scale(1.02);
+	cursor: pointer;
+
+}
+
+.popup {
+	padding: 35px 35px 35px 150px;
+	background-color: white;
+	position: absolute;
+	left: 18%;
+	top: 200px;
+	box-shadow: 0 0 15px 5px white;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url('s2.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.image {
+	position: relative;
+}
+
+.info_page {
+	position: absolute;
+	z-index: 2;
+	bottom: 0px;
+	left: 80px;
+	width: 540px;
+	height: 50px;
+	background-color: white;
+	opacity: 0.9;
+	font: italic 11px verdana, sans-serif;
+}
+
+.rights {
+	position: absolute;
+	left: 40px;
+	top: 12px;
+}
+
+.rights a {
+	color: black;
+	font-weight: bold;
+}
+
+.publish_date {
+	position: absolute;
+	left: 370px;
+	top: 13px;
+}
+
+.info_page img {
+	width: 15px;
+	position: absolute;
+	left: 460px;
+	top: 13px;
+}
+
+.likes_num {
+position: absolute;
+left: 483px;
+top: 12px;
+color: #bd0712;
+}
+
+.popupimg {
+	width: 1000px;
+	
+}
+
+.back {
+	position: absolute;
+	top: 40px;
+	left: 35px;
+}
+
+.author_popup {
+	position: absolute;
+	left: 0px;
+	top: 205px;
+	font-size: 18px;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	width: 140px;
+}
+
+.photo_by {
+	position: absolute;
+	left: 0px;
+	top: 175px;
+	font-size: 18px;
+	text-align: center;
+	color: black;
+	width: 140px;
+}
+
+.publish_date_popup {
+	position: absolute;
+	top: 350px;
+	left: 35px;
+}
+
+.popup_unsplash {
+	position: absolute;
+	left: 0px;
+	top: 275px;
+	font-size: 18px;
+	text-align: center;
+	width: 140px;
+}
+
+.popup_unsplash a {
+	font-weight: bold;
+	color: black;
+
+}
+
+
+
+.popup_info_container {
+	width: 140px;
+	position: absolute;
+	left: 5px;
+	top: 0;
+}
+
+.popup figure {
+	width: 50px;
+	position: absolute;
+	top: 450px;
+	left: 0px;
+}
+
+.popup_heart {
+	width: 50px;
+	cursor: pointer;
+	opacity: 0.6;
+	transform: scale(1);
+	transition: opacity 1s, transform 1s;
+}
+
+.popup_likes {
+	text-align: center;
+	font-size: 18px;
+}
+
+#error_load {
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 37%;
+}
+
+#heart {
+	transform: scale(1.4);
+	opacity: 1;
+}
+
